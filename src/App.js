@@ -1,8 +1,9 @@
 import Dropdown from './components/Dropdown';
 
-
-import './App.css';
-
+/**
+ * Основной компонент приложения, отвечающий за отображение всех элементов на странице. Дочерний компонент Dropdown (кнопка активации выпадающего списка)
+ *
+ */
 const App = () => {
   return (
     <div className="container">
